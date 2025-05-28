@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbranded Product Mockup Generator | Professional Packaging Visualization</title>
+    
+    <!-- SEO Meta -->
+    <meta name="description" content="Generate professional unbranded product mockups with AI. Perfect for R&D teams, designers, and product managers.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">MockupGen Pro</h1>
+            <p class="tagline">AI-Powered Unbranded Product Visualization</p>
+        </div>
+    </header>
+
+    <!-- Main Application -->
+    <main class="app-container">
+        <!-- Step 1: Product Type Selection -->
+        <section id="step-1" class="generation-step active">
+            <h2>Select Product Type</h2>
+            <div class="product-grid">
+                <button class="product-type" data-type="bottle" data-icon="🍾">
+                    <span class="icon">🍾</span>
+                    <span class="label">Bottle</span>
+                    <span class="sublabel">Spray, Pump, Squeeze</span>
+                </button>
+                <button class="product-type" data-type="box" data-icon="📦">
+                    <span class="icon">📦</span>
+                    <span class="label">Box</span>
+                    <span class="sublabel">Folding, Rigid</span>
+                </button>
+                <button class="product-type" data-type="tube" data-icon="🧴">
+                    <span class="icon">🧴</span>
+                    <span class="label">Tube</span>
+                    <span class="sublabel">Squeeze, Airless</span>
+                </button>
+                <button class="product-type" data-type="pouch" data-icon="📋">
+                    <span class="icon">📋</span>
+                    <span class="label">Pouch</span>
+                    <span class="sublabel">Stand-up, Flat</span>
+                </button>
+                <button class="product-type" data-type="jar" data-icon="🏺">
+                    <span class="icon">🏺</span>
+                    <span class="label">Jar</span>
+                    <span class="sublabel">Wide-mouth, Cosmetic</span>
+                </button>
+                <button class="product-type" data-type="canister" data-icon="🥫">
+                    <span class="icon">🥫</span>
+                    <span class="label">Canister</span>
+                    <span class="sublabel">Cylindrical, Rectangular</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Step 2: Category Selection -->
+        <section id="step-2" class="generation-step">
+            <h2>Select Product Category</h2>
+            <div class="category-grid">
+                <button class="category-type" data-category="laundry">
+                    <span class="label">Laundry Care</span>
+                    <span class="examples">Detergent, Softener, Stain Remover</span>
+                </button>
+                <button class="category-type" data-category="personal-care">
+                    <span class="label">Personal Care</span>
+                    <span class="examples">Shampoo, Body Wash, Lotion</span>
+                </button>
+                <button class="category-type" data-category="oral-care">
+                    <span class="label">Oral Care</span>
+                    <span class="examples">Toothpaste, Mouthwash, Whitening</span>
+                </button>
+                <button class="category-type" data-category="home-care">
+                    <span class="label">Home Care</span>
+                    <span class="examples">Cleaner, Disinfectant, Air Fresh</span>
+                </button>
+                <button class="category-type" data-category="health">
+                    <span class="label">Health & Wellness</span>
+                    <span class="examples">Vitamins, Supplements, Remedies</span>
+                </button>
+                <button class="category-type" data-category="pet-care">
+                    <span class="label">Pet Care</span>
+                    <span class="examples">Shampoo, Deodorizer, Treats</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Step 3: Style Customization -->
+        <section id="step-3" class="generation-step">
+            <h2>Customize Appearance</h2>
+            <div class="customization-panel">
+                <!-- Color Scheme -->
+                <div class="option-group">
+                    <label>Color Scheme</label>
+                    <div class="color-options">
+                        <button class="color-option active" data-color="white-gray">
+                            <span class="color-preview" style="background: linear-gradient(#ffffff, #e0e0e0)"></span>
+                            <span>White & Gray</span>
+                        </button>
+                        <button class="color-option" data-color="pearl-silver">
+                            <span class="color-preview" style="background: linear-gradient(#f8f8f8, #c0c0c0)"></span>
+                            <span>Pearl & Silver</span>
+                        </button>
+                        <button class="color-option" data-color="pastel-blue">
+                            <span class="color-preview" style="background: linear-gradient(#e3f2fd, #ffffff)"></span>
+                            <span>Soft Blue</span>
+                        </button>
+                        <button class="color-option" data-color="beige-cream">
+                            <span class="color-preview" style="background: linear-gradient(#f5e6d3, #faf0e6)"></span>
+                            <span>Beige & Cream</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Surface Finish -->
+                <div class="option-group">
+                    <label>Surface Finish</label>
+                    <div class="finish-options">
+                        <button class="finish-option active" data-finish="matte">
+                            <span>Smooth Matte</span>
+                        </button>
+                        <button class="finish-option" data-finish="glossy">
+                            <span>High Gloss</span>
+                        </button>
+                        <button class="finish-option" data-finish="soft-touch">
+                            <span>Soft Touch</span>
+                        </button>
+                        <button class="finish-option" data-finish="frosted">
+                            <span>Frosted</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Logo Placeholder Shape -->
+                <div class="option-group">
+                    <label>Logo Area Shape</label>
+                    <div class="shape-options">
+                        <button class="shape-option active" data-shape="circle">
+                            <span class="shape-icon">○</span>
+                            <span>Circle</span>
+                        </button>
+                        <button class="shape-option" data-shape="rectangle">
+                            <span class="shape-icon">□</span>
+                            <span>Rectangle</span>
+                        </button>
+                        <button class="shape-option" data-shape="square">
+                            <span class="shape-icon">▢</span>
+                            <span>Square</span>
+                        </button>
+                        <button class="shape-option" data-shape="oval">
+                            <span class="shape-icon">⬭</span>
+                            <span>Oval</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Additional Details -->
+                <div class="option-group">
+                    <label>Special Features (Optional)</label>
+                    <textarea id="special-features" placeholder="e.g., ergonomic grip, measurement marks, dispensing cap" rows="3"></textarea>
+                </div>
+            </div>
+
+            <!-- Generate Button -->
+            <button id="generate-btn" class="generate-button">
+                <span class="btn-text">Generate Mockup</span>
+                <span class="btn-loader" style="display: none;">
+                    <svg class="spinner" viewBox="0 0 50 50">
+                        <circle cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                    </svg>
+                    Generating...
+                </span>
+            </button>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results" class="results-section" style="display: none;">
+            <h2>Your Generated Mockup</h2>
+            <div class="result-container">
+                <div class="image-preview">
+                    <img id="generated-image" src="" alt="Generated product mockup">
+                    <div class="image-tools">
+                        <button id="download-btn" class="tool-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download
+                        </button>
+                        <button id="regenerate-btn" class="tool-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="23 4 23 10 17 10"></polyline>
+                                <polyline points="1 20 1 14 7 14"></polyline>
+                                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                            </svg>
+                            Regenerate
+                        </button>
+                        <button id="new-mockup-btn" class="tool-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            New Mockup
+                        </button>
+                    </div>
+                </div>
+                <div class="mockup-details">
+                    <h3>Mockup Details</h3>
+                    <dl>
+                        <dt>Product Type:</dt>
+                        <dd id="detail-type"></dd>
+                        <dt>Category:</dt>
+                        <dd id="detail-category"></dd>
+                        <dt>Color Scheme:</dt>
+                        <dd id="detail-color"></dd>
+                        <dt>Finish:</dt>
+                        <dd id="detail-finish"></dd>
+                        <dt>Logo Placeholder:</dt>
+                        <dd id="detail-shape"></dd>
+                        <dt>Generated:</dt>
+                        <dd id="detail-timestamp"></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="history-section">
+            <h2>Recent Generations</h2>
+            <div id="history-grid" class="history-grid">
+                <!-- Dynamically populated -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 MockupGen Pro | Professional Unbranded Product Visualization</p>
+            <p class="disclaimer">All generated images are unbranded and include designated logo placement areas.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
